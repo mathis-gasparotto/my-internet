@@ -152,6 +152,12 @@ ytd-two-column-browse-results-renderer[page-subtype="playlist"] {
   width: fit-content !important;
 }
 
+ytd-browse[guide-persistent-and-visible] .page-header-sidebar.ytd-browse,
+ytd-browse[guide-persistent-and-visible] ytd-playlist-header-renderer.ytd-browse,
+ytd-browse[guide-persistent-and-visible] ytd-playlist-sidebar-renderer.ytd-browse {
+  left: 130px !important;
+}
+
 /* yt-Transparent header */
 #masthead-container {
   #background.ytd-masthead {
