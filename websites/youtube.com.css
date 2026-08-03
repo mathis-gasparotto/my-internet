@@ -158,6 +158,10 @@ ytd-browse[guide-persistent-and-visible] ytd-playlist-sidebar-renderer.ytd-brows
   left: 130px !important;
 }
 
+ytd-app[fullscreen] #contentContainer {
+  transform: translate3d(-100%,0,0) !important;
+}
+
 /* yt-Transparent header */
 #masthead-container {
   #background.ytd-masthead {
