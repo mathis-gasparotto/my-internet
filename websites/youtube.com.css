@@ -162,6 +162,10 @@ ytd-app[fullscreen] #contentContainer {
   transform: translate3d(-100%, 0, 0) !important;
 }
 
+body.lock-scrollbar {
+  position: initial !important;
+}
+
 /* yt-Transparent header */
 #masthead-container {
   #background.ytd-masthead {
