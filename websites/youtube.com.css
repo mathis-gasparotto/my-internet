@@ -166,6 +166,10 @@ body.lock-scrollbar {
   position: initial !important;
 }
 
+#guide {
+  z-index: 0 !important;
+}
+
 /* yt-Transparent header */
 #masthead-container {
   #background.ytd-masthead {
